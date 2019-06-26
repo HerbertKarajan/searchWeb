@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="/gmlib/jq/1.7.1/jquery.js" ></script>
+    <script >
+        $(function(){
+            var exdate=new Date()
+            exdate.setDate(exdate.getDate()+30*365)
+            var version=window.location.href.split('?')[1];
+            window.document.cookie="__c_visitor="+version+";domain=.gome.com.cn;path=/;expires="+exdate.toGMTString();
+            window.document.cookie="__c_visitor="+version+";domain=.search.gome.com.cn;path=/;expires="+exdate.toGMTString();
+            $("#version").html(version);
+        });
+
+        function delCookie(name){
+            var cookeValue=null;
+            document.cookie
+        }
+    </script>
+</head>
+<body>
+    <h3>您已手动切换搜索版本,目前版本为:<span id="version"></span></h3>
+</body>
+</html>

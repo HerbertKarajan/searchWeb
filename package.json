@@ -1,0 +1,30 @@
+{
+  "name": "searchapp",
+  "version": "1.0.0",
+  "description": "build by webpackage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangxin11411/searchapp.git"
+  },
+  "keywords": [
+    "gomesearch"
+  ],
+  "author": "wangxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangxin11411/searchapp/issues"
+  },
+  "homepage": "https://github.com/wangxin11411/searchapp#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "jsx-loader": "^0.13.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
